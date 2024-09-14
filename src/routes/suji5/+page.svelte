@@ -2,11 +2,10 @@
 	<h1 class="takuann">Suji</h1>
 	<div class="container-fluid p-5 my-5 text-white">
 		<h1 style="text-align: center;" class="bg-danger">ToDoを追加する</h1>
-    <div class="kyc-search-bar" style="margin:0 auto;">
+		<div class="kyc-search-bar" style="margin:0 auto;">
 			<input class="kyc-search-box" type="text" placeholder="検索" autocomplete="off" />
-      <button type="button" class="btn btn-outline-primary">Go</button>
 		</div>
-    <h1 class="takuann">筋が通っていない！！</h1>
+		<h1 class="takuann">筋が通っていない！！</h1>
 	</div>
 	<div class="btn-group btn-group-lg" role="group" aria-label="Large button group">
 		<button type="button" class="btn btn-outline-primary">💪</button>

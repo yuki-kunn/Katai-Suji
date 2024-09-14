@@ -4,7 +4,6 @@
 		<h1 style="text-align: center;" class="bg-danger">ToDoを追加する</h1>
 		<div class="kyc-search-bar" style="margin:0 auto;">
 			<input class="kyc-search-box" type="text" placeholder="検索" autocomplete="off" />
-			<button type="button" class="btn btn-outline-primary">Go</button>
 		</div>
 	</div>
 	<div class="btn-group btn-group-lg" role="group" aria-label="Large button group">
