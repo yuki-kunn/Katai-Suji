@@ -1,7 +1,7 @@
 <div class="wrapper">
     <h1 class="takuann">Suji</h1>
       <div class="container-fluid p-5 my-5  text-white">
-        <h1 style="text-align: center;" class="bg-danger">ToDoを追加</h1>
+        <h1 style="text-align: center;" class="bg-danger">ToDoを追加する</h1>
       </div>
       <div class="kyc-search-bar" style="text-align: center;">
         <input class="kyc-search-box" type="text" placeholder="検索" autocomplete="off">
