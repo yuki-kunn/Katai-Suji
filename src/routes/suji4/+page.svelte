@@ -7,7 +7,7 @@
 		<div class="input-group">
 			<input type="text" class="form-control" placeholder="筋を入力" />
 		</div>
-		<button type="button" class="footer p-3 btn btn-danger mt-2">筋を追加する</button>
+		<button type="button" class="footer p-3 btn btn-danger mt-2">ToDoを追加する</button>
 	</div>
 
 	<footer class="footer fixed-bottom d-flex justify-content-around align-items-center">
