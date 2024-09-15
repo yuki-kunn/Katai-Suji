@@ -1,4 +1,5 @@
 <script>
+	import { goto } from '$app/navigation';
 	let title = '';
 
 	const addSuji = async () => {
@@ -14,6 +15,7 @@
 			},
 			body: JSON.stringify({ title })
 		});
+		goto('/suji');
 	};
 </script>
 
@@ -29,9 +31,9 @@
 	</div>
 
 	<footer class="footer fixed-bottom d-flex justify-content-around align-items-center">
-		<button type="button" class="btn btn-outline-primary">💪</button>
-		<button type="button" class="btn btn-outline-primary"> ＋ </button>
-		<button type="button" class="btn btn-outline-primary">✏️</button>
+		<a href="/suji" class="btn">💪</a>
+		<a href="/suji2" class="btn"> ＋ </a>
+		<a href="/suji3" class="btn">✏️</a>
 	</footer>
 </body>
 

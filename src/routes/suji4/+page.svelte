@@ -1,4 +1,5 @@
 <script>
+	import { goto } from '$app/navigation';
 	let title = '';
 
 	const addToDo = async () => {
@@ -20,6 +21,7 @@
 		} else {
 			alert('筋を通せました');
 		}
+		goto('/suji3');
 	};
 </script>
 
@@ -35,9 +37,9 @@
 	</div>
 
 	<footer class="footer fixed-bottom d-flex justify-content-around align-items-center">
-		<button type="button" class="btn btn-outline-primary">💪</button>
-		<button type="button" class="btn btn-outline-primary"> ＋ </button>
-		<button type="button" class="btn btn-outline-primary">✏️</button>
+		<a href="/suji" class="btn">💪</a>
+		<a href="/suji4" class="btn"> ＋ </a>
+		<a href="/suji3" class="btn">✏️</a>
 	</footer>
 </body>
 

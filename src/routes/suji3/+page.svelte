@@ -32,9 +32,9 @@
 		{/await}
 	</div>
 	<footer class="footer fixed-bottom d-flex justify-content-around align-items-center">
-		<button type="button" class="btn btn-outline-primary">💪</button>
-		<button type="button" class="btn btn-outline-primary"> ＋ </button>
-		<button type="button" class="btn btn-outline-primary">✏️</button>
+		<a href="/suji" class="btn">💪</a>
+		<a href="/suji4" class="btn"> ＋ </a>
+		<a href="/suji3" class="btn">✏️</a>
 	</footer>
 </body>
 
