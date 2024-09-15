@@ -1,62 +1,43 @@
-<div class="wrapper">
+<script>
+</script>
+
+<body>
 	<h1 class="takuann">Suji</h1>
-	<div class="container-fluid p-5 my-5 text-white">
-		<h1 style="text-align: center;" class="bg-danger">ToDoを追加する</h1>
-		<div class="kyc-search-bar" style="margin:0 auto;">
-			<input class="kyc-search-box" type="text" placeholder="検索" autocomplete="off" />
+	<div class="container">
+		<div class="input-group">
+			<input type="text" class="form-control" placeholder="筋を入力" />
 		</div>
+		<button type="button" class="footer p-3 btn btn-danger mt-2">筋を追加する</button>
 	</div>
-	<div class="btn-group btn-group-lg" role="group" aria-label="Large button group">
+
+	<footer class="footer fixed-bottom d-flex justify-content-around align-items-center">
 		<button type="button" class="btn btn-outline-primary">💪</button>
-		<button type="button" class="btn btn-outline-primary">＋</button>
+		<button type="button" class="btn btn-outline-primary"> ＋ </button>
 		<button type="button" class="btn btn-outline-primary">✏️</button>
-	</div>
-</div>
+	</footer>
+</body>
 
 <style>
-	.kyc-search-bar {
-		display: flex;
-		align-items: center;
-		justify-content: center;
-		height: 45px;
-		width: 550px;
-		border-radius: 30px;
-		margin: 5px;
-		border: solid 1px #dcdcdc;
-	}
-
-	.kyc-search-box {
-		font-size: 16px;
-		width: 100%;
-		border: none;
-		outline: none;
-	}
-
-	i.kyc-search-mark {
-		margin-left: 10px;
-		margin-right: 5px;
-		color: #9aa0a6;
-	}
-
-	i.kyc-search-mic {
-		margin-right: 10px;
-		cursor: pointer;
-		color: #9aa0a6;
-	}
-
-	@media only screen and (max-width: 480px) {
-		.kyc-search-bar {
-			width: 90%;
-		}
-	}
-
 	.takuann {
 		text-align: center;
 		color: red;
+		margin-bottom: 11em;
 	}
-	.wrapper {
-		display: grid;
-		grid-template-rows: auto 1fr auto;
-		min-height: 100svh;
+
+	.container {
+		height: 10px;
+		margin: 0 auto;
+	}
+
+	/* フッターの設定 */
+	.footer {
+		width: 100%;
+		padding: 10px;
+	}
+
+	/* フッターのボタンのスタイル調整 */
+	.footer button {
+		border: none;
+		background: none;
 	}
 </style>
